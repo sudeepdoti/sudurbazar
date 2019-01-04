@@ -1,0 +1,83 @@
+<?php  if ( ! defined('BASEPATH')) exit('No direct script access allowed'); ?>
+
+ERROR - 2018-10-25 16:15:58 --> Severity: Notice  --> Trying to get property of non-object D:\xamp\htdocs\sudurbazar\application\views\admin\forms\edit.php 73
+ERROR - 2018-10-25 16:15:58 --> Severity: Notice  --> Trying to get property of non-object D:\xamp\htdocs\sudurbazar\application\views\admin\forms\edit.php 88
+ERROR - 2018-10-25 16:15:58 --> Severity: Notice  --> Trying to get property of non-object D:\xamp\htdocs\sudurbazar\application\views\admin\forms\edit.php 73
+ERROR - 2018-10-25 16:15:58 --> Severity: Notice  --> Trying to get property of non-object D:\xamp\htdocs\sudurbazar\application\views\admin\forms\edit.php 88
+ERROR - 2018-10-25 16:16:19 --> Severity: Notice  --> Trying to get property of non-object D:\xamp\htdocs\sudurbazar\application\views\admin\forms\edit.php 73
+ERROR - 2018-10-25 16:16:19 --> Severity: Notice  --> Trying to get property of non-object D:\xamp\htdocs\sudurbazar\application\views\admin\forms\edit.php 88
+ERROR - 2018-10-25 16:16:20 --> Severity: Notice  --> Trying to get property of non-object D:\xamp\htdocs\sudurbazar\application\views\admin\forms\edit.php 73
+ERROR - 2018-10-25 16:16:20 --> Severity: Notice  --> Trying to get property of non-object D:\xamp\htdocs\sudurbazar\application\views\admin\forms\edit.php 88
+ERROR - 2018-10-25 16:51:39 --> Severity: Notice  --> Undefined variable: direction D:\xamp\htdocs\sudurbazar\templates\sudur\widgets\top_search.php 28
+ERROR - 2018-10-25 16:58:06 --> 404 Page Not Found --> http://localhost/sudurbazar/index.php/admin/forms/assets/img/ajax-loader.gif
+ERROR - 2018-10-25 16:58:08 --> 404 Page Not Found --> http://localhost/sudurbazar/index.php/admin/forms/assets/img/ajax-loader.gif
+ERROR - 2018-10-25 16:58:16 --> 404 Page Not Found --> http://localhost/sudurbazar/index.php/admin/forms/assets/img/ajax-loader.gif
+ERROR - 2018-10-25 16:58:16 --> 404 Page Not Found --> http://localhost/sudurbazar/index.php/admin/forms/assets/img/ajax-loader.gif
+ERROR - 2018-10-25 16:58:49 --> Severity: Notice  --> Trying to get property of non-object D:\xamp\htdocs\sudurbazar\application\views\admin\forms\edit.php 73
+ERROR - 2018-10-25 16:58:49 --> Severity: Notice  --> Trying to get property of non-object D:\xamp\htdocs\sudurbazar\application\views\admin\forms\edit.php 88
+ERROR - 2018-10-25 16:58:50 --> Severity: Notice  --> Trying to get property of non-object D:\xamp\htdocs\sudurbazar\application\views\admin\forms\edit.php 73
+ERROR - 2018-10-25 16:58:50 --> Severity: Notice  --> Trying to get property of non-object D:\xamp\htdocs\sudurbazar\application\views\admin\forms\edit.php 88
+ERROR - 2018-10-25 17:00:06 --> Severity: Notice  --> Trying to get property of non-object D:\xamp\htdocs\sudurbazar\application\views\admin\forms\edit.php 73
+ERROR - 2018-10-25 17:00:06 --> Severity: Notice  --> Trying to get property of non-object D:\xamp\htdocs\sudurbazar\application\views\admin\forms\edit.php 88
+ERROR - 2018-10-25 17:00:08 --> Severity: Notice  --> Trying to get property of non-object D:\xamp\htdocs\sudurbazar\application\views\admin\forms\edit.php 73
+ERROR - 2018-10-25 17:00:08 --> Severity: Notice  --> Trying to get property of non-object D:\xamp\htdocs\sudurbazar\application\views\admin\forms\edit.php 88
+ERROR - 2018-10-25 17:00:28 --> Severity: Notice  --> Trying to get property of non-object D:\xamp\htdocs\sudurbazar\application\views\admin\forms\edit.php 73
+ERROR - 2018-10-25 17:00:28 --> Severity: Notice  --> Trying to get property of non-object D:\xamp\htdocs\sudurbazar\application\views\admin\forms\edit.php 88
+ERROR - 2018-10-25 17:00:31 --> Severity: Notice  --> Trying to get property of non-object D:\xamp\htdocs\sudurbazar\application\views\admin\forms\edit.php 73
+ERROR - 2018-10-25 17:00:31 --> Severity: Notice  --> Trying to get property of non-object D:\xamp\htdocs\sudurbazar\application\views\admin\forms\edit.php 88
+ERROR - 2018-10-25 17:01:42 --> Severity: Notice  --> Trying to get property of non-object D:\xamp\htdocs\sudurbazar\application\views\admin\forms\edit.php 73
+ERROR - 2018-10-25 17:01:42 --> Severity: Notice  --> Trying to get property of non-object D:\xamp\htdocs\sudurbazar\application\views\admin\forms\edit.php 88
+ERROR - 2018-10-25 17:01:46 --> Severity: Notice  --> Trying to get property of non-object D:\xamp\htdocs\sudurbazar\application\views\admin\forms\edit.php 73
+ERROR - 2018-10-25 17:01:46 --> Severity: Notice  --> Trying to get property of non-object D:\xamp\htdocs\sudurbazar\application\views\admin\forms\edit.php 88
+ERROR - 2018-10-25 17:09:13 --> Severity: Notice  --> Trying to get property of non-object D:\xamp\htdocs\sudurbazar\application\views\admin\forms\edit.php 73
+ERROR - 2018-10-25 17:09:13 --> Severity: Notice  --> Trying to get property of non-object D:\xamp\htdocs\sudurbazar\application\views\admin\forms\edit.php 88
+ERROR - 2018-10-25 17:09:20 --> Severity: Notice  --> Trying to get property of non-object D:\xamp\htdocs\sudurbazar\application\views\admin\forms\edit.php 73
+ERROR - 2018-10-25 17:09:20 --> Severity: Notice  --> Trying to get property of non-object D:\xamp\htdocs\sudurbazar\application\views\admin\forms\edit.php 88
+ERROR - 2018-10-25 17:10:13 --> Severity: Notice  --> Trying to get property of non-object D:\xamp\htdocs\sudurbazar\application\views\admin\forms\edit.php 73
+ERROR - 2018-10-25 17:10:13 --> Severity: Notice  --> Trying to get property of non-object D:\xamp\htdocs\sudurbazar\application\views\admin\forms\edit.php 88
+ERROR - 2018-10-25 17:10:16 --> Severity: Notice  --> Trying to get property of non-object D:\xamp\htdocs\sudurbazar\application\views\admin\forms\edit.php 73
+ERROR - 2018-10-25 17:10:17 --> Severity: Notice  --> Trying to get property of non-object D:\xamp\htdocs\sudurbazar\application\views\admin\forms\edit.php 88
+ERROR - 2018-10-25 17:13:48 --> Severity: Notice  --> Trying to get property of non-object D:\xamp\htdocs\sudurbazar\application\views\admin\forms\edit.php 73
+ERROR - 2018-10-25 17:13:48 --> Severity: Notice  --> Trying to get property of non-object D:\xamp\htdocs\sudurbazar\application\views\admin\forms\edit.php 88
+ERROR - 2018-10-25 17:13:52 --> Severity: Notice  --> Trying to get property of non-object D:\xamp\htdocs\sudurbazar\application\views\admin\forms\edit.php 73
+ERROR - 2018-10-25 17:13:52 --> Severity: Notice  --> Trying to get property of non-object D:\xamp\htdocs\sudurbazar\application\views\admin\forms\edit.php 88
+ERROR - 2018-10-25 17:14:19 --> Severity: Notice  --> Trying to get property of non-object D:\xamp\htdocs\sudurbazar\application\views\admin\forms\edit.php 73
+ERROR - 2018-10-25 17:14:19 --> Severity: Notice  --> Trying to get property of non-object D:\xamp\htdocs\sudurbazar\application\views\admin\forms\edit.php 88
+ERROR - 2018-10-25 17:14:21 --> Severity: Notice  --> Trying to get property of non-object D:\xamp\htdocs\sudurbazar\application\views\admin\forms\edit.php 73
+ERROR - 2018-10-25 17:14:21 --> Severity: Notice  --> Trying to get property of non-object D:\xamp\htdocs\sudurbazar\application\views\admin\forms\edit.php 88
+ERROR - 2018-10-25 17:14:33 --> Severity: Notice  --> Trying to get property of non-object D:\xamp\htdocs\sudurbazar\application\views\admin\forms\edit.php 73
+ERROR - 2018-10-25 17:14:33 --> Severity: Notice  --> Trying to get property of non-object D:\xamp\htdocs\sudurbazar\application\views\admin\forms\edit.php 88
+ERROR - 2018-10-25 17:14:36 --> Severity: Notice  --> Trying to get property of non-object D:\xamp\htdocs\sudurbazar\application\views\admin\forms\edit.php 73
+ERROR - 2018-10-25 17:14:36 --> Severity: Notice  --> Trying to get property of non-object D:\xamp\htdocs\sudurbazar\application\views\admin\forms\edit.php 88
+ERROR - 2018-10-25 17:15:42 --> Severity: Notice  --> Trying to get property of non-object D:\xamp\htdocs\sudurbazar\application\views\admin\forms\edit.php 73
+ERROR - 2018-10-25 17:15:42 --> Severity: Notice  --> Trying to get property of non-object D:\xamp\htdocs\sudurbazar\application\views\admin\forms\edit.php 88
+ERROR - 2018-10-25 17:15:47 --> Severity: Notice  --> Trying to get property of non-object D:\xamp\htdocs\sudurbazar\application\views\admin\forms\edit.php 73
+ERROR - 2018-10-25 17:15:47 --> Severity: Notice  --> Trying to get property of non-object D:\xamp\htdocs\sudurbazar\application\views\admin\forms\edit.php 88
+ERROR - 2018-10-25 17:16:34 --> Severity: Notice  --> Trying to get property of non-object D:\xamp\htdocs\sudurbazar\application\views\admin\forms\edit.php 73
+ERROR - 2018-10-25 17:16:34 --> Severity: Notice  --> Trying to get property of non-object D:\xamp\htdocs\sudurbazar\application\views\admin\forms\edit.php 88
+ERROR - 2018-10-25 17:16:40 --> Severity: Notice  --> Trying to get property of non-object D:\xamp\htdocs\sudurbazar\application\views\admin\forms\edit.php 73
+ERROR - 2018-10-25 17:16:40 --> Severity: Notice  --> Trying to get property of non-object D:\xamp\htdocs\sudurbazar\application\views\admin\forms\edit.php 88
+ERROR - 2018-10-25 17:26:22 --> Severity: Notice  --> Trying to get property of non-object D:\xamp\htdocs\sudurbazar\application\views\admin\forms\edit.php 73
+ERROR - 2018-10-25 17:26:22 --> Severity: Notice  --> Trying to get property of non-object D:\xamp\htdocs\sudurbazar\application\views\admin\forms\edit.php 88
+ERROR - 2018-10-25 17:26:27 --> Severity: Notice  --> Trying to get property of non-object D:\xamp\htdocs\sudurbazar\application\views\admin\forms\edit.php 73
+ERROR - 2018-10-25 17:26:27 --> Severity: Notice  --> Trying to get property of non-object D:\xamp\htdocs\sudurbazar\application\views\admin\forms\edit.php 88
+ERROR - 2018-10-25 17:26:53 --> Severity: Notice  --> Trying to get property of non-object D:\xamp\htdocs\sudurbazar\application\views\admin\forms\edit.php 73
+ERROR - 2018-10-25 17:26:53 --> Severity: Notice  --> Trying to get property of non-object D:\xamp\htdocs\sudurbazar\application\views\admin\forms\edit.php 88
+ERROR - 2018-10-25 17:26:57 --> Severity: Notice  --> Trying to get property of non-object D:\xamp\htdocs\sudurbazar\application\views\admin\forms\edit.php 73
+ERROR - 2018-10-25 17:26:57 --> Severity: Notice  --> Trying to get property of non-object D:\xamp\htdocs\sudurbazar\application\views\admin\forms\edit.php 88
+ERROR - 2018-10-25 17:28:16 --> Severity: Notice  --> Trying to get property of non-object D:\xamp\htdocs\sudurbazar\application\views\admin\forms\edit.php 73
+ERROR - 2018-10-25 17:28:16 --> Severity: Notice  --> Trying to get property of non-object D:\xamp\htdocs\sudurbazar\application\views\admin\forms\edit.php 88
+ERROR - 2018-10-25 17:28:21 --> Severity: Notice  --> Trying to get property of non-object D:\xamp\htdocs\sudurbazar\application\views\admin\forms\edit.php 73
+ERROR - 2018-10-25 17:28:21 --> Severity: Notice  --> Trying to get property of non-object D:\xamp\htdocs\sudurbazar\application\views\admin\forms\edit.php 88
+ERROR - 2018-10-25 17:29:34 --> Severity: Notice  --> Trying to get property of non-object D:\xamp\htdocs\sudurbazar\application\views\admin\forms\edit.php 73
+ERROR - 2018-10-25 17:29:34 --> Severity: Notice  --> Trying to get property of non-object D:\xamp\htdocs\sudurbazar\application\views\admin\forms\edit.php 88
+ERROR - 2018-10-25 17:29:39 --> Severity: Notice  --> Trying to get property of non-object D:\xamp\htdocs\sudurbazar\application\views\admin\forms\edit.php 73
+ERROR - 2018-10-25 17:29:39 --> Severity: Notice  --> Trying to get property of non-object D:\xamp\htdocs\sudurbazar\application\views\admin\forms\edit.php 88
+ERROR - 2018-10-25 17:30:38 --> Severity: Notice  --> Trying to get property of non-object D:\xamp\htdocs\sudurbazar\application\views\admin\forms\edit.php 73
+ERROR - 2018-10-25 17:30:38 --> Severity: Notice  --> Trying to get property of non-object D:\xamp\htdocs\sudurbazar\application\views\admin\forms\edit.php 88
+ERROR - 2018-10-25 17:30:47 --> Severity: Notice  --> Trying to get property of non-object D:\xamp\htdocs\sudurbazar\application\views\admin\forms\edit.php 73
+ERROR - 2018-10-25 17:30:47 --> Severity: Notice  --> Trying to get property of non-object D:\xamp\htdocs\sudurbazar\application\views\admin\forms\edit.php 88
+ERROR - 2018-10-25 17:31:02 --> Severity: Notice  --> Trying to get property of non-object D:\xamp\htdocs\sudurbazar\application\views\admin\forms\edit.php 73
+ERROR - 2018-10-25 17:31:02 --> Severity: Notice  --> Trying to get property of non-object D:\xamp\htdocs\sudurbazar\application\views\admin\forms\edit.php 88
+ERROR - 2018-10-25 17:31:12 --> Severity: Notice  --> Trying to get property of non-object D:\xamp\htdocs\sudurbazar\application\views\admin\forms\edit.php 73
+ERROR - 2018-10-25 17:31:12 --> Severity: Notice  --> Trying to get property of non-object D:\xamp\htdocs\sudurbazar\application\views\admin\forms\edit.php 88

@@ -2,9 +2,9 @@
     <div class="row">
     <div class="col-md-12">
         <div class="wp-block property list">
-            <!--<div class="wp-block-title">
+            <div class="wp-block-title">
                 <h3><a href="<?php echo $item['url']; ?>" hidefocus="true"><?php echo _ch($item['address']); ?></a></h3>
-            </div>-->
+            </div>
             <div class="wp-block-body wp-block-property">
                 <div class="wp-block-img">
                     <img src="<?php echo _simg($item['thumbnail_url'], '380x250'); ?>" alt="">
@@ -18,7 +18,7 @@
                     <?php endif; ?>
 
                     <?php if(!empty($item['option_54'])):?>
-                    <!--<div class="ownership-badget noUi-background fea_<?php echo _ch($item['is_featured']); ?>"><?php echo _ch($item['option_54']); ?></div>-->
+                    <div class="ownership-badget noUi-background fea_<?php echo _ch($item['is_featured']); ?>"><?php echo _ch($item['option_54']); ?></div>
                     <?php endif;?>
 
                     <?php if(($item['is_featured'])):?>
@@ -26,46 +26,21 @@
                     <?php endif;?>
                 </div>
                 <div class="wp-block-content clearfix">
-                	<div class="row-list">
-                    	<div class="col-block1">
-                    		<a href="<?php echo $item['url']; ?>"><h4 class="content-title"><?php echo _ch($item['option_10']); ?></h4></a>
-                            <div class="wp-block-title-inner">
-                                <h5><strong>Location:</strong> <a href="<?php echo $item['url']; ?>"><?php echo _ch($item['address']); ?></a></h5>
-                            </div>
-                            <div class="description"><?php echo substr(_ch($item['option_8']),0,150); ?></div>
-                    		<!--<p class="description"><?php //echo _ch($item['option_8']); ?></p>-->
-                            <div class="condition-product">
-                            <?php if(!empty($item['option_86'])):?>
-                            <!--<span class="conditions"><strong>Condition :</strong> <?php echo _ch($item['option_86']); ?></span>-->
-                            
-                            <?php endif;?>
-                            <span class="pull-right-list"><strong>Seller: </strong> <a href="#">Sudeep Shrestha</a></span></div>
-                            
-                    	
-                    
-                    </div>
-                    <div class="col-block2">
-                    	<span class="published-date"><?php $date1 = $item['date']; 
-							//echo $date1;
-							$date = new DateTime($date1);
-							echo $date->format('Y-m-d');				
-							?></span> <br />
-                            <span class="ads-id">Ad ID: <strong><?php echo $item['id']; ?></strong></span>
-                    </div>
-                    <div class="col-block3">
-                    	<span class="pull-left2">
-                                   <span class="price">
-                                <?php if(!empty($item['option_36']) || !empty($item['option_37'])): ?>
-                                <?php 
-                                    if(!empty($item['option_36']))echo $options_prefix_36.price_format($item['option_36'], $lang_id).$options_suffix_36;
-                                    if(!empty($item['option_37']))echo ' '.$options_prefix_37.price_format($item['option_37'], $lang_id).$options_suffix_37
-                                ?>
-                                <?php else: ?>
-                                    -
-                                <?php endif; ?>
-                                </span> 
-                            </span>
-                            <!--<span class="pull-right">
+                    <a href="<?php echo $item['url']; ?>"><h4 class="content-title"><?php echo _ch($item['option_10']); ?></h4></a>
+                    <p class="description"><?php echo _ch($item['option_8']); ?></p>
+                    <span class="pull-left">
+                           <span class="price">
+                    <?php if(!empty($item['option_36']) || !empty($item['option_37'])): ?>
+                    <?php 
+                        if(!empty($item['option_36']))echo $options_prefix_36.price_format($item['option_36'], $lang_id).$options_suffix_36;
+                        if(!empty($item['option_37']))echo ' '.$options_prefix_37.price_format($item['option_37'], $lang_id).$options_suffix_37
+                    ?>
+                    <?php else: ?>
+                        -
+                    <?php endif; ?>
+                    </span> 
+                    </span>
+                    <span class="pull-right">
                     <span class="capacity">
                         <?php if (!empty($item['option_20'])):?>
                             <?php for ($i=0; $i<(int)$item['option_20']; $i++): ?>
@@ -73,16 +48,7 @@
                             <?php endfor;?>
                         <?php endif;?>
                     </span>
-                    </span>-->
-                    
-                    <?php if(!empty($item['option_86'])):?>
-                            <span class="conditions"><strong></strong> <?php echo _ch($item['option_86']); ?></span>
-                            
-                            <?php endif;?>
-                    </div>
-                </span>
-                </div>
-                </div>
+                </span></div>
             </div>
             <div class="wp-block-footer">
                 <ul class="aux-info">

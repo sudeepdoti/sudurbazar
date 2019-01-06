@@ -4365,7 +4365,7 @@ iframe {
 }
 
 .wp-block.property.list .wp-block-img {
-    min-width: 150px;
+    /*min-width: 150px;*/
 }
 
 .wp-block.property.list {

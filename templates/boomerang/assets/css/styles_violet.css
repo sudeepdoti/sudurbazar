@@ -3896,11 +3896,13 @@ margin-bottom:20px
 }
 
 .carousel-1.carousel-fixed-height .carousel-inner {
-height:440px
+height:440px;
+height:auto;
 }
 
 .carousel-1.carousel-fixed-height .item {
-height:440px
+height:440px;
+height:auto;
 }
 
 .carousel-1 .carousel-control {
@@ -13755,6 +13757,11 @@ section.section-slider { padding-top:15px; }
 .col-block3 span { display:block; width:100%; }
 .col-block3 span.conditions { font-size:12px; letter-spacing:-0.05em; }
 .ads-id { font-size:12px; }
+.jumbotron-row { margin-bottom:15px; }
+.ads-image {}
+.ads-image img { max-width:100%; }
+.paddingleftnone { padding-left:0px; }
+.carousel-control { display:none; }
 
 
 @media (min-width:768px) {

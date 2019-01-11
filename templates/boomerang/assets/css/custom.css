@@ -4290,7 +4290,7 @@ iframe {
 }
 
 .phone-sup.carousel .carousel-inner .item .img {
-    display: none !important;
+    /*display: none !important;*/
 }
 
 .slider_full_width .phone-sup.carousel .carousel-inner .item .img {

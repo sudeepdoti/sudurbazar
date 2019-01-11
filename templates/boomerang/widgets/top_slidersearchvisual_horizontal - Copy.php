@@ -9,6 +9,48 @@ Widget-preview-image: /assets/img/widgets_preview/top_slidersearch.jpg
         <div class="wp-section">
             <div class="container">
                 <div class="row-fluid">
+                	<div id="homepageCarousel" class="carousel carousel-1 phone-sup carousel-fixed-height slide jumbotron-left slider-full" data-ride="carousel">
+                                    <div class="carousel-inner">
+                                        <?php foreach($slideshow_images as $key=>$file): ?>
+                                        <div class="item item-dark <?php echo ($key==0) ? 'active' : '';?>" style="background-image:url(<?php echo _simg($file['url'], '1800x600'); ?>);">
+                                            <img src="<?php echo _simg($file['url'], '1800x600'); ?>" alt="" class="img">
+                                            <?php if(config_item('property_slider_enabled')===TRUE&&!empty($file['property_details'])):?>
+                                            <div class="mask mask-1"></div>
+                                            <div class="container">
+                                                 <div class="description-left">
+                                                     <span class="title c-white text-uppercase strong-700"><?php _che($file['property_details']['title']);?></span>
+                                                     <span class="subtitle-sm"><?php _che($file['property_details']['option_chlimit_8']);?></span>
+                                                     <a href="<?php _che($file['property_details']['link']);?>" class="btn btn-lg btn-white btn-icon fa-eye">
+                                                         <span><?php echo _l('Read more');?></span>
+                                                     </a>
+                                                 </div>
+                                            </div> 
+                                            <?php elseif(!empty($file['title'])): ?>
+                                            <div class="mask mask-1"></div>
+                                            <div class="container">
+                                                 <div class="description-left">
+                                                    <span class="title c-white text-uppercase strong-700"><?php _che($file['title']);?></span>
+                                                    <span class="subtitle-sm"><?php _che($file['description']);?></span>
+                                                     <?php if(!empty($file['link'])):?>
+                                                     <a href="<?php _che($file['link']);?>" class="btn btn-lg btn-white btn-icon fa-eye">
+                                                         <span><?php echo _l('Read more');?></span>
+                                                     </a>
+                                                    <?php endif; ?>
+                                                 </div>
+                                            </div>                     
+                                            <?php endif; ?>
+                                        </div> 
+                                        <?php endforeach;?>
+                                    </div>
+                                    
+                                    <!-- Controls -->
+                                    <a class="left carousel-control" href="#homepageCarousel" data-slide="prev">
+                                        <i class="fa fa-angle-left"></i>
+                                    </a>
+                                    <a class="right carousel-control" href="#homepageCarousel" data-slide="next">
+                                        <i class="fa fa-angle-right"></i>
+                                    </a>     
+                                </div>
                 	<div class="jumbotron-row <?php echo (config_item('slider_full_width') == TRUE) ? 'slider_full_width' : '';?>">
                     <div class="jumbotron-horizontal block-search">
                     	
@@ -109,59 +151,6 @@ Widget-preview-image: /assets/img/widgets_preview/top_slidersearch.jpg
                                 </div>
                             </div>
                             </div>
-                    <div class="row">
-                        <div class="col-sm-8">
-                            <div id="homepageCarousel" class="carousel carousel-1 phone-sup carousel-fixed-height slide jumbotron-left slider-full" data-ride="carousel">
-                                            <div class="carousel-inner">
-                                                <?php foreach($slideshow_images as $key=>$file): ?>
-                                                <div class="item item-dark <?php echo ($key==0) ? 'active' : '';?>" style="background-image:url(<?php echo _simg($file[''], '1800x600'); ?>);">
-                                                    <img src="<?php echo _simg($file['url'], '750x280'); ?>" alt="" class="img">
-                                                    <!--<img src="https://dummyimage.com/750X280/000/fff.jpg&text=this+is+test" />-->
-                                                    <?php if(config_item('property_slider_enabled')===TRUE&&!empty($file['property_details'])):?>
-                                                    <div class="mask mask-1"></div>
-                                                    <div class="container">
-                                                         <div class="description-left">
-                                                             <span class="title c-white text-uppercase strong-700"><?php _che($file['property_details']['title']);?></span>
-                                                             <span class="subtitle-sm"><?php _che($file['property_details']['option_chlimit_8']);?></span>
-                                                             <a href="<?php _che($file['property_details']['link']);?>" class="btn btn-lg btn-white btn-icon fa-eye">
-                                                                 <span><?php echo _l('Read more');?></span>
-                                                             </a>
-                                                         </div>
-                                                    </div> 
-                                                    <?php elseif(!empty($file['title'])): ?>
-                                                    <div class="mask mask-1"></div>
-                                                    <div class="container">
-                                                         <div class="description-left">
-                                                            <span class="title c-white text-uppercase strong-700"><?php _che($file['title']);?></span>
-                                                            <span class="subtitle-sm"><?php _che($file['description']);?></span>
-                                                             <?php if(!empty($file['link'])):?>
-                                                             <a href="<?php _che($file['link']);?>" class="btn btn-lg btn-white btn-icon fa-eye">
-                                                                 <span><?php echo _l('Read more');?></span>
-                                                             </a>
-                                                            <?php endif; ?>
-                                                         </div>
-                                                    </div>                     
-                                                    <?php endif; ?>
-                                                </div> 
-                                                <?php endforeach;?>
-                                            </div>
-                                            
-                                            <!-- Controls -->
-                                            <a class="left carousel-control" href="#homepageCarousel" data-slide="prev">
-                                                <i class="fa fa-angle-left"></i>
-                                            </a>
-                                            <a class="right carousel-control" href="#homepageCarousel" data-slide="next">
-                                                <i class="fa fa-angle-right"></i>
-                                            </a>     
-                                        </div>
-                        </div>
-                        <div class="col-sm-4 paddingleftnone">
-                        	<div class="ads-image">
-                        		<img src="http://localhost/sudurbazar/files/strict_cache/bannerregister.jpg" />
-                            </div>
-                        </div>
-                    </div>
-                	
                 </div>
             </div>
         </div>

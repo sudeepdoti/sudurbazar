@@ -102,7 +102,9 @@ $(document).ready(function() {
   var stickyToggle = function(sticky, stickyWrapper, scrollElement) {
     var stickyHeight = sticky.outerHeight();
     var stickyTop = stickyWrapper.offset().top;
-    if (scrollElement.scrollTop() >= 200){
+	var headerH = $('.top-header').height();
+	
+    if (scrollElement.scrollTop() >= headerH){
       stickyWrapper.height(stickyHeight);
       sticky.addClass("affix");
        sticky.removeClass("affix-top");

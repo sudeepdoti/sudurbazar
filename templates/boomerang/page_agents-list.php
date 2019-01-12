@@ -43,6 +43,27 @@
                                 </div>
                             </div>
                 	</div>
+                    
+                    <div class="col-md-3">
+                              <div class="sidebar agent-search-desktop">
+                                <!-- Search blog -->
+                                <div class="section-title-wr wp-block pg-opt" style="padding-bottom: 15px;">
+                                   <h3 class="section-title left"><span><?php _l('Search');?></span></h3>
+                                </div>
+                                <div class="wp-block base">
+                                        <div class="wp-block-body">
+                                            <form class="form-light">
+                                               <div class="input-group">
+                                                    <input type="text" value="<?php echo $this->input->get('search-agent'); ?>" name="search-agent" class="form-control input-medium  btn-base btn-base-form" placeholder="<?php _l('CityorName');?>">
+                                                   <span class="input-group-btn btn-b-white btn-b-white-form">
+                                                       <button type="submit" id="btn-search_showroom" class="btn btn-base">{lang_Search}</button>
+                                                   </span>
+                                               </div>
+                                           </form>
+                                        </div>
+                                </div>
+                            </div>
+                	</div>
                      
                 	<div class="col-md-9">
                             <div class="wp-block pg-opt">
@@ -114,26 +135,7 @@
                             </div>
                         </div>
                 	</div> 
-                	<div class="col-md-3">
-                              <div class="sidebar agent-search-desktop">
-                                <!-- Search blog -->
-                                <div class="section-title-wr wp-block pg-opt" style="padding-bottom: 15px;">
-                                   <h3 class="section-title left"><span><?php _l('Search');?></span></h3>
-                                </div>
-                                <div class="wp-block base">
-                                        <div class="wp-block-body">
-                                            <form class="form-light">
-                                               <div class="input-group">
-                                                    <input type="text" value="<?php echo $this->input->get('search-agent'); ?>" name="search-agent" class="form-control input-medium  btn-base btn-base-form" placeholder="<?php _l('CityorName');?>">
-                                                   <span class="input-group-btn btn-b-white btn-b-white-form">
-                                                       <button type="submit" id="btn-search_showroom" class="btn btn-base">{lang_Search}</button>
-                                                   </span>
-                                               </div>
-                                           </form>
-                                        </div>
-                                </div>
-                            </div>
-                	</div>
+                	
                 </div>
           
             </div>

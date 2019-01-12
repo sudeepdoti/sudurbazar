@@ -687,6 +687,8 @@ $('#design-reset').click(function(){
               manualSearch(0);
               return false;
             });
+			
+
             /* Search end */
             
             <?php $dates_list = ''; if(isset($available_dates) && file_exists(APPPATH.'controllers/admin/booking.php')): ?>

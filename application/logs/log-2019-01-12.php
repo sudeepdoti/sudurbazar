@@ -176,3 +176,36 @@ ERROR - 2019-01-12 13:48:19 --> Severity: Notice  --> Undefined index:  D:\xamp\
 ERROR - 2019-01-12 13:48:58 --> Severity: Notice  --> Undefined index:  D:\xamp\htdocs\sudurbazar\templates\boomerang\widgets\top_slidersearchvisual_horizontal.php 117
 ERROR - 2019-01-12 13:49:11 --> Severity: Notice  --> Undefined index:  D:\xamp\htdocs\sudurbazar\templates\boomerang\widgets\top_slidersearchvisual_horizontal.php 117
 ERROR - 2019-01-12 13:49:33 --> Severity: Notice  --> Undefined index:  D:\xamp\htdocs\sudurbazar\templates\boomerang\widgets\top_slidersearchvisual_horizontal.php 117
+ERROR - 2019-01-12 16:03:03 --> Severity: Notice  --> Undefined index:  D:\xamp\htdocs\sudurbazar\templates\boomerang\widgets\top_slidersearchvisual_horizontal.php 117
+ERROR - 2019-01-12 16:03:19 --> Severity: Notice  --> Undefined index:  D:\xamp\htdocs\sudurbazar\templates\boomerang\widgets\top_slidersearchvisual_horizontal.php 117
+ERROR - 2019-01-12 16:04:55 --> Severity: Notice  --> Undefined index:  D:\xamp\htdocs\sudurbazar\templates\boomerang\widgets\top_slidersearchvisual_horizontal.php 117
+ERROR - 2019-01-12 16:04:59 --> Severity: Notice  --> Undefined index:  D:\xamp\htdocs\sudurbazar\templates\boomerang\widgets\top_slidersearchvisual_horizontal.php 117
+ERROR - 2019-01-12 16:05:05 --> Severity: Notice  --> Undefined index:  D:\xamp\htdocs\sudurbazar\templates\boomerang\widgets\top_slidersearchvisual_horizontal.php 117
+ERROR - 2019-01-12 16:07:28 --> Severity: Notice  --> Undefined index:  D:\xamp\htdocs\sudurbazar\templates\boomerang\widgets\top_slidersearchvisual_horizontal.php 117
+ERROR - 2019-01-12 16:09:43 --> Severity: Notice  --> Undefined index:  D:\xamp\htdocs\sudurbazar\templates\boomerang\widgets\top_slidersearchvisual_horizontal.php 117
+ERROR - 2019-01-12 16:12:45 --> Severity: Notice  --> Undefined index:  D:\xamp\htdocs\sudurbazar\templates\boomerang\widgets\top_slidersearchvisual_horizontal.php 117
+ERROR - 2019-01-12 16:13:05 --> Severity: Notice  --> Undefined index:  D:\xamp\htdocs\sudurbazar\templates\boomerang\widgets\top_slidersearchvisual_horizontal.php 117
+ERROR - 2019-01-12 16:17:37 --> Severity: Notice  --> Undefined variable: id D:\xamp\htdocs\sudurbazar\application\controllers\admin\settings.php 60
+ERROR - 2019-01-12 16:18:09 --> Severity: Notice  --> Undefined index:  D:\xamp\htdocs\sudurbazar\templates\boomerang\widgets\top_slidersearchvisual_horizontal.php 117
+ERROR - 2019-01-12 16:18:13 --> Severity: Notice  --> Undefined index:  D:\xamp\htdocs\sudurbazar\templates\boomerang\widgets\top_slidersearchvisual_horizontal.php 117
+ERROR - 2019-01-12 16:19:16 --> Severity: Notice  --> Undefined index:  D:\xamp\htdocs\sudurbazar\templates\boomerang\widgets\top_slidersearchvisual_horizontal.php 117
+ERROR - 2019-01-12 16:19:21 --> Severity: Notice  --> Undefined index:  D:\xamp\htdocs\sudurbazar\templates\boomerang\widgets\top_slidersearchvisual_horizontal.php 117
+ERROR - 2019-01-12 16:20:13 --> Severity: Notice  --> Undefined index:  D:\xamp\htdocs\sudurbazar\templates\boomerang\widgets\top_slidersearchvisual_horizontal.php 117
+ERROR - 2019-01-12 16:20:24 --> Severity: Notice  --> Undefined index:  D:\xamp\htdocs\sudurbazar\templates\boomerang\widgets\top_slidersearchvisual_horizontal.php 117
+ERROR - 2019-01-12 16:20:37 --> Severity: Notice  --> Undefined index:  D:\xamp\htdocs\sudurbazar\templates\boomerang\widgets\top_slidersearchvisual_horizontal.php 117
+ERROR - 2019-01-12 16:22:17 --> Severity: Notice  --> Undefined index:  D:\xamp\htdocs\sudurbazar\templates\boomerang\widgets\top_slidersearchvisual_horizontal.php 117
+ERROR - 2019-01-12 16:23:08 --> Severity: Notice  --> Undefined index:  D:\xamp\htdocs\sudurbazar\templates\boomerang\widgets\top_slidersearchvisual_horizontal.php 117
+ERROR - 2019-01-12 16:23:27 --> Severity: Notice  --> Undefined index:  D:\xamp\htdocs\sudurbazar\templates\boomerang\widgets\top_slidersearchvisual_horizontal.php 117
+ERROR - 2019-01-12 16:23:35 --> Severity: Notice  --> Undefined index:  D:\xamp\htdocs\sudurbazar\templates\boomerang\widgets\top_slidersearchvisual_horizontal.php 117
+ERROR - 2019-01-12 16:24:46 --> Severity: Notice  --> Undefined index:  D:\xamp\htdocs\sudurbazar\templates\boomerang\widgets\top_slidersearchvisual_horizontal.php 117
+ERROR - 2019-01-12 16:25:44 --> Severity: Notice  --> Trying to get property of non-object D:\xamp\htdocs\sudurbazar\application\views\admin\forms\edit.php 73
+ERROR - 2019-01-12 16:25:44 --> Severity: Notice  --> Trying to get property of non-object D:\xamp\htdocs\sudurbazar\application\views\admin\forms\edit.php 88
+ERROR - 2019-01-12 16:25:45 --> Severity: Notice  --> Trying to get property of non-object D:\xamp\htdocs\sudurbazar\application\views\admin\forms\edit.php 73
+ERROR - 2019-01-12 16:25:45 --> Severity: Notice  --> Trying to get property of non-object D:\xamp\htdocs\sudurbazar\application\views\admin\forms\edit.php 88
+ERROR - 2019-01-12 16:26:35 --> Severity: Notice  --> Trying to get property of non-object D:\xamp\htdocs\sudurbazar\application\views\admin\forms\edit.php 73
+ERROR - 2019-01-12 16:26:35 --> Severity: Notice  --> Trying to get property of non-object D:\xamp\htdocs\sudurbazar\application\views\admin\forms\edit.php 88
+ERROR - 2019-01-12 16:26:35 --> Severity: Notice  --> Trying to get property of non-object D:\xamp\htdocs\sudurbazar\application\views\admin\forms\edit.php 73
+ERROR - 2019-01-12 16:26:35 --> Severity: Notice  --> Trying to get property of non-object D:\xamp\htdocs\sudurbazar\application\views\admin\forms\edit.php 88
+ERROR - 2019-01-12 16:34:32 --> Severity: Notice  --> Undefined index:  D:\xamp\htdocs\sudurbazar\templates\boomerang\widgets\top_slidersearchvisual_horizontal.php 117
+ERROR - 2019-01-12 16:34:37 --> Severity: Notice  --> Undefined index:  D:\xamp\htdocs\sudurbazar\templates\boomerang\widgets\top_slidersearchvisual_horizontal.php 117
+ERROR - 2019-01-12 16:34:59 --> Severity: Notice  --> Undefined index:  D:\xamp\htdocs\sudurbazar\templates\boomerang\widgets\top_slidersearchvisual_horizontal.php 117

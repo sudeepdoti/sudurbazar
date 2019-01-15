@@ -2,7 +2,7 @@
 
 $config['loaded_template_config'] = 'realocation';
 $config['pseudo_varialbes_disabled'] = TRUE;
-$config['per_page'] = 6;
+$config['per_page'] = 20;
 $config['visual_templates_enabled'] = TRUE;
 $config['secondary_disabled'] = FALSE;
 $config['search_forms_editor_enabled'] = TRUE;

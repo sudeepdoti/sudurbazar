@@ -36,6 +36,7 @@
                         <div class="sidebar">
                             <?php //_widget('right_customfilter');?>  
                             <?php _widget('right_categoriesmenu');?>  
+                            <?php _widget('right_customfilter');?>
                             <?php //_widget('right_facebooklike');?>
                             <?php //_widget('right_adssmall');?>  
                             <?php //_widget('right_recentproperties');?>  

@@ -1,5 +1,5 @@
-<div class="wp-block pg-opt pg-opt-top">
-    <h2 class="section-title left section-title-min"><?php _l('Results'); ?> : <?php echo $total_rows; ?></h2>
+<div class="section-title-wr wp-block pg-opt pg-opt-top">
+    <h2 class="section-title left section-title-min"><?php _l('Results'); ?> : <?php echo $total_rows; ?> <span class="customfilter">Ad Filter <i class="caret"></i></span></h2>
 </div>
 <!-- PAGINATION & FILTERS -->
 <div class="wp-block default product-list-filters light-gray" style="padding:10px 15px">

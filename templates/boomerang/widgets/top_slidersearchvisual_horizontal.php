@@ -7,7 +7,7 @@ Widget-preview-image: /assets/img/widgets_preview/top_slidersearch.jpg
 
 <section class="slice bb resize-block save-form section-slider section-top">
         <div class="wp-section">
-            <div class="container">
+            <div class="container container-nopadding">
                 <div class="row-fluid">
                 	<div class="jumbotron-row <?php echo (config_item('slider_full_width') == TRUE) ? 'slider_full_width' : '';?>">
                     <div class="jumbotron-horizontal block-search">
@@ -110,7 +110,7 @@ Widget-preview-image: /assets/img/widgets_preview/top_slidersearch.jpg
                             </div>
                             </div>
                     <div class="row">
-                        <div class="col-sm-8">
+                        <div class="col-sm-8 mobile-nopadding">
                             <div id="homepageCarousel" class="carousel carousel-1 phone-sup carousel-fixed-height slide jumbotron-left slider-full" data-ride="carousel">
                                             <div class="carousel-inner">
                                                 <?php foreach($slideshow_images as $key=>$file): ?>
@@ -155,7 +155,7 @@ Widget-preview-image: /assets/img/widgets_preview/top_slidersearch.jpg
                                             </a>     
                                         </div>
                         </div>
-                        <div class="col-sm-4 paddingleftnone">
+                        <div class="col-sm-4 paddingleftnone mobile-nopadding">
                         	<div class="ads-image">
                         		<img src="http://localhost/sudurbazar/files/strict_cache/bannerregister.jpg" />
                             </div>

@@ -6,8 +6,17 @@ Widget-preview-image: /assets/img/widgets_preview/right_customfilter.jpg
 ?>
 
 <!-- FILTERS -->
+<?php
+if (!$this->uri->segment(1)) {
+    // We are on the homepage
+	//echo "homepage";
+}
+else {
+	//echo "innerpage";
+}
+?>
 <div class="panel panel-default panel-sidebar-1 filter-checkbox-container">
-    <div class="panel-heading"><h2>{lang_CustomFilters}</h2></div>
+    <div class="panel-heading"><h2>{lang_CustomFilters}</h2><span class="btn-close-lightbox2">Close</span></div>
     <div class="panel-body">
         <form class="form-light secondary-form">
 

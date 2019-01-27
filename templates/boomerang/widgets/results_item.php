@@ -4,6 +4,7 @@ if(isset($columns) && $columns == 3)
 {
     $col_sm = '4';
 }
+//print_r($item)."<br/>";
 ?>
 
 <div class="col-md-<?php echo $col_sm;?>">
@@ -13,7 +14,8 @@ if(isset($columns) && $columns == 3)
         </div>-->
         <div class="wp-block-body wp-block-property">
             <div class="wp-block-img">
-                <img src="<?php echo _simg($item['thumbnail_url'], '380x200'); ?>" alt="">
+                <img src="<?php echo _simg($item['thumbnail_url'], '380x200'); ?>" alt="<?php echo _ch($item['option_10']); ?>" class="hidden-xs">
+                <img src="<?php echo _simg($item['thumbnail_url'], '380x300'); ?>" alt="<?php echo _ch($item['option_10']); ?>" class="visible-xs">
                 <a href="<?php echo $item['url']; ?>"></a>
                 <?php if(!empty($item['option_38'])):?>
                 <div class="badget"><img src="<?php echo _ch($item['badget']); ?>" alt="<?php echo _ch($item['option_38']); ?>"/></div>
@@ -32,7 +34,7 @@ if(isset($columns) && $columns == 3)
                 <?php endif;?>
             </div>
             <div class="wp-block-content clearfix">
-            	<h2 class="content-title"><?php echo _ch($item['option_10']); ?></h2>
+            	<h2 class="content-title"><a href="<?php echo $item['url']; ?>"><?php echo _ch($item['option_10']); ?></a></h2>
             	<span class="published-date"><?php $date1 = $item['date']; 
 							//echo $date1;
 							$date = new DateTime($date1);
@@ -42,7 +44,7 @@ if(isset($columns) && $columns == 3)
                             <span class="conditions"><strong></strong> <?php echo _ch($item['option_86']); ?></span>
                             
                             <?php endif;?>
-                            <span class="pull-right-list"><strong>Seller: </strong> <a href="#">Sudeep Shrestha</a></span>
+                            <!--<span class="pull-right-list"><strong>Seller: </strong> <a href="#">Sudeep Shrestha</a></span>-->
                 
                 <h3 class="h5"><i class="fa fa-map-marker"></i> <a href="<?php echo $item['url']; ?>"><?php echo _ch($item['address']); ?></a></h3>
                 <p class="description"><?php echo _ch($item['option_chlimit_8']); ?></p>
@@ -60,13 +62,14 @@ if(isset($columns) && $columns == 3)
                     </span> 
                 </span>
                 <span class="pull-right">
-                    <span class="capacity">
+                	<span class="counter-views">Total views: <?php echo $item['counter_views']; ?></span>
+                    <!--<span class="capacity">
                         <?php if (!empty($item['option_20'])):?>
                             <?php for ($i=0; $i<(int)$item['option_20']; $i++): ?>
                                 <i class="fa fa-user"></i>
                             <?php endfor;?>
                         <?php endif;?>
-                    </span>
+                    </span>-->
                 </span>
             </div>
         </div>

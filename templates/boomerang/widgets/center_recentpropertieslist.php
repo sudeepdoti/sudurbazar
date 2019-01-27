@@ -7,7 +7,7 @@ Widget-preview-image: /assets/img/widgets_preview/center_recentpropertieslist.jp
 
 <div class="results_conteiner">
 <div class="section-title-wr pg-opt style-title">
-    <h2 class="section-title left section-title-min"><span><?php _l('Results'); ?> : <?php echo $total_rows; ?></span></h2>
+    <h2 class="section-title left section-title-min2"><span><?php _l('Results'); ?> : <?php echo $total_rows; ?></span></h2>
 </div>
 <!-- PAGINATION & FILTERS -->
 <div class="wp-block default product-list-filters light-gray" style="padding:10px 15px">

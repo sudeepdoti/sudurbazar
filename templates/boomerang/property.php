@@ -44,6 +44,7 @@ if (!empty($lang_facebook_code))
                             <?php _widget('property_center_slider');?>
                             <div class="visible-xs-none">
                                 <?php _widget('property_right_overview');?>
+                                <?php _widget('property_additional');?>
                             </div>
                             <?php _widget('property_center_tabs');?>
                             <?php _widget('property_center_multimedia-category');?>

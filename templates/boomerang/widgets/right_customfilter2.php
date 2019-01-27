@@ -11,7 +11,7 @@ Widget-preview-image: /assets/img/widgets_preview/right_customfilter.jpg
 
 <!-- FILTERS -->
 <div class="panel panel-default panel-sidebar-1 filter-checkbox-container">
-    <div class="panel-heading"><h2>{lang_CustomFilters}</h2></div>
+    <div class="panel-heading"><h2>{lang_CustomFilters}2</h2><span class="btn-close-lightbox2">Close</span></div>
     <div class="panel-body">
         <form class="form-light secondary-form">
            <?php  _search_form_secondary(2); ?>

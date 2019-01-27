@@ -51,6 +51,7 @@
 							echo $date->format('Y-m-d');				
 							?></span> <br />
                             <span class="ads-id">Ad ID: <strong><?php echo $item['id']; ?></strong></span>
+                            <span class="counter-views">Views: <?php echo $item['counter_views']; ?></span>
                     </div>
                     <div class="col-block3">
                     	<span class="pull-left2">
